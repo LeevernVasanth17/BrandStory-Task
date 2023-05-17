@@ -1,0 +1,412 @@
+.header {
+    background-color: #24336A;
+    height: 100vh;
+    padding: 7% 2% 2% 7%;
+}
+
+.header_1 {
+    
+    height: 100vh;
+    padding: 7% 2% 2% 7%;
+}
+.logo {
+    width: 121px;
+    text-align: center;
+}
+
+.nav_bar{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+
+}
+.active{
+    border: 1px solid #B0BF40;
+    border-radius: 5px;
+}
+.li_content{
+    display: inline-block;
+    padding: 23px;
+    color: whitesmoke;
+    margin: 0px;
+}
+.li_content:hover{
+    background-color: whitesmoke;
+    font-family:serif;
+    text-decoration: underline;
+    color: black;
+    transform:scale(1.2);
+    border-style: solid;
+    border-color:darkgoldenrod;
+}
+
+.h1_text{
+    font-size: 4em;
+}
+
+.p_text{
+    font-size: 1.2em;
+}
+
+.margin_left {
+    margin-left: 20%;
+}
+
+.industries{
+    color: #077F8D;
+    font-family: "Archivo";
+}
+
+.tab {
+    /* margin-top: 40px; */
+    
+    justify-content: space-evenly;
+}
+
+.ul_tab{
+    justify-content: space-evenly;
+}
+
+.tab_border {
+    border-bottom: 2px solid #24336A;
+    border-radius: 5px;
+    
+}
+
+.width {
+    width: 100%;
+}
+
+.second_page {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 680px;
+}
+
+.third_page {
+    width: 100%;
+    height: 600px
+}
+
+.fourth_page {
+    width: 100%;
+    height: 700px;
+    /* margin-left: 170px; */
+}
+
+.fifth_page {
+    width: 100%;
+    height: 400px;
+    background-color: #2B2733;
+    margin-bottom: 100px;
+}
+
+.page2 {
+    top: 70px;
+}
+
+.p1_text{
+    font-family: "Archivo";
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.p2_text {
+    font-family: "Archivo";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.p3_text {
+    margin-left: 0px;
+}
+/* Image Over Image */
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    /* border: 1px red solid; */
+  }
+  .image2 {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    /* border: 1px green solid; */
+  }
+ 
+.image3 {
+    position: absolute;
+    top: 240px;
+    left: -130px;
+
+}
+
+/* text over image */
+.top-left {
+    position: absolute;
+    top: 230px;
+    left: 75px;
+    font-family: "Archivo";
+    font-weight: 500;
+    font-size: 11.48px;
+  }
+
+.bottom-left {
+    position: absolute;
+    bottom: 50px;
+    left: 75px;
+    font-family: "Archivo";
+    font-weight: 400;
+    font-size: 12.84px;
+    color: #077F8D;
+  }
+
+  .centered {
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    font-family: "Archivo";
+    font-weight: 400;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+  }
+
+*{
+    box-sizing: border-box;
+  }
+
+.arrow{
+    position: absolute;
+    right: 150px;
+}
+.arrow_2{
+    position: absolute;
+    right: 250px;
+}
+
+  /* Style the cards */
+.card_1 {
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+    padding: 16px;
+    /* text-align: center; */
+    background-color: #077F8D;
+    width: 295px;
+    height: 354px;
+    /* display: block; */
+    border-radius: 5px;
+   
+  }
+
+.card_2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    /* text-align: center; */
+    background-color: #A74170;
+    width: 295px;
+    height: 354px;
+    border-radius: 5px;
+}
+
+.card_3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    /* text-align: center; */
+    background-color: #077F8D;
+    width: 295px;
+    height: 354px;
+    border-radius: 5px;
+}
+
+.card_4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    /* text-align: center; */
+    background-color: #333A42;
+    width: 295px;
+    height: 354px;
+    border-radius: 5px;
+}
+
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top:80px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+.card_container {
+    width: 180px;
+    height: 65px;
+    margin-bottom: 60px;
+    /* text-align: center; */
+}
+
+.card1_text {
+    font-family: "Archivo";
+    font-weight: 600;
+    font-size: 22px;
+    text-align: left;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color:#FFFFFF;
+}
+
+.read_more{
+    font-family: "Archivo";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color:#FFFFFF;
+}
+
+.testimonials {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.banner {
+    margin-top: 80px;
+    margin-left: 180px;
+
+}
+
+.centered_2 {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-left_2 {
+    position: absolute;
+    bottom: 130px;
+    left: 380px;
+    font-family: "Archivo";
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+/* footer page styles */
+
+.footer_text_1 {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.footer_text_2 {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footer_text_3 {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color:#22B473 ;
+}
+
+.login_button {
+    border: 2px solid #22B473;
+    border-radius: 5px;
+    color: #22B473 ;
+    background-color:#2B2733 ;
+}
+
+.sales_1 {
+    font-family: 'Archivo';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    font-style: normal;
+    margin-top: 55px;
+}
+
+.sales_2 {
+    font-family: 'Archivo';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    font-style: normal;
+    margin-top: 55px;
+}
+
+.sales_3 {
+    font-family: 'Archivo';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    font-style: normal;
+    margin-top: 95px;
+}
+
+.connect {
+    font-family: 'Archivo';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    font-style: normal;
+    color: #ffffff;
+    margin-top: 85px;
+}
+
+.media_symbol {
+    justify-content: space-evenly;
+    margin-left: -40px;
+}
+
+.credits {
+    margin-top: 30px;
+    margin-left: 850px;
+    font-family: 'Archivo';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 138.8%;
+    font-style: normal;
+}
+
+.bottom {
+    margin-bottom: 30;
+}
